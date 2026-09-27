@@ -1,0 +1,19 @@
+import jsoup.jsoup.Document
+import jsoup.jsoup.Element
+import jsoup.jsoup.Safelist
+import jsoup.jsoup.jsoupClean
+import jsoup.jsoup.jsoupParse
+import jsoup.jsoup.safelistBasic
+
+main() {
+  Document page = jsoupParse("<a class='story' href='/news'>Read more</a>")!!
+  Element? link = page.selectFirst("a.story")
+  printLine(link?.text() ?? "missing")
+  printLine(link?.attr("href") ?? "missing")
+  Safelist allowed = safelistBasic()!!
+  printLine(jsoupClean(arg0: "<b>Hi</b><script>bad()</script>", arg1: allowed)!!)
+}
+
+Module module() {
+  module(dependencies: [dependency(repository: "github", name: "jsoup.jsoup", version: 2)])
+}
