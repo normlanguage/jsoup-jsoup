@@ -15,5 +15,5 @@ main() {
 }
 
 Module module() {
-  module(dependencies: [dependency(repository: "github", name: "jsoup.jsoup", version: 2)])
+  module(dependencies: [dependency(repository: "github", name: "jsoup.jsoup", version: 3)])
 }

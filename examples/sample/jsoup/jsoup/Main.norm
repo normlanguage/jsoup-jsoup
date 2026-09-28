@@ -1,4 +1,12 @@
-package jsoup.jsoup
+package sample.jsoup.jsoup
+
+import jsoup.jsoup.Document
+import jsoup.jsoup.jsoupParse
+import jsoup.jsoup.Elements
+import jsoup.jsoup.Element
+import jsoup.jsoup.Safelist
+import jsoup.jsoup.safelistBasic
+import jsoup.jsoup.jsoupClean
 
 Void main() {
   Document? document = jsoupParse(

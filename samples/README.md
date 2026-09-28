@@ -20,4 +20,4 @@ Read more
 <b>Hi</b>
 ```
 
-API reference: [module.norm](../jsoup/jsoup/module.norm) lists the exposed `Document`, `Element`, and `Safelist`. The module's `Main.norm` remains its own adapter integration entry point.
+API reference: [module.norm](../jsoup/jsoup/module.norm) lists the exposed `Document`, `Element`, and `Safelist`. The [adapter acceptance example](../examples/sample/jsoup/jsoup/Main.norm) exercises additional binding behavior.

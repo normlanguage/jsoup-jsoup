@@ -20,4 +20,4 @@ Read more
 <b>Hi</b>
 ```
 
-API 入口：[module.norm](../jsoup/jsoup/module.norm) 列出公开的 `Document`、`Element` 和 `Safelist`。`Main.norm` 仍是该适配器自身的集成入口。
+API 入口：[module.norm](../jsoup/jsoup/module.norm) 列出公开的 `Document`、`Element` 和 `Safelist`。[适配器验收示例](../examples/sample/jsoup/jsoup/Main.norm)覆盖更多绑定行为。
