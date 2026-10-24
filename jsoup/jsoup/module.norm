@@ -133,7 +133,6 @@ Module module() {
             "removeClass",
             "select",
             "selectFirst",
-            "size",
             "text",
             "toggleClass",
             "unwrap",
