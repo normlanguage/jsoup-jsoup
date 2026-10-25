@@ -2,6 +2,7 @@ Module module() {
   return module(
     name: "jsoup.jsoup",
     version: 3,
+    exports: ["Jsoup", "Document", "Elements", "Element", "Safelist"],
     binding: jarBinding(
       target: mavenJar(
         group: "org.jsoup",
@@ -133,7 +134,6 @@ Module module() {
             "removeClass",
             "select",
             "selectFirst",
-            "size",
             "text",
             "toggleClass",
             "unwrap",
