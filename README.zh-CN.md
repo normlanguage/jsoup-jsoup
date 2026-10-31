@@ -7,3 +7,5 @@
 独立 NAR 消费、真实 JAR、DOM 行为、Safelist 和本机 HTTP 验收由 `JsoupBindingIntegrationTest` 执行。
 
 [可运行示例](samples/README.zh-CN.md) 展示如何作为外部 Norm 依赖使用本库。
+
+[许可证](LICENSE)

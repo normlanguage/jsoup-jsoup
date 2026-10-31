@@ -1,6 +1,6 @@
 # jsoup.jsoup Skill
 
-Use this skill to work with Norm module `jsoup.jsoup` version 3. Use only declarations listed below.
+Use this skill to work with Norm module `jsoup.jsoup` version 4. Use only declarations listed below.
 
 ## `jsoup.jsoup`
 
