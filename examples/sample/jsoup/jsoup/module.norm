@@ -2,6 +2,6 @@ Module module() {
   return module(
     name: "sample.jsoup.jsoup",
     version: 1,
-    dependencies: [dependency(repository: "github", name: "jsoup.jsoup", version: 3)]
+    dependencies: [dependency(repository: "github", name: "jsoup.jsoup", version: 4)]
   )
 }

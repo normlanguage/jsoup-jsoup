@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "jsoup.jsoup",
-    version: 3,
+    version: 4,
     exports: ["Jsoup", "Document", "Elements", "Element", "Safelist"],
     binding: jarBinding(
       target: mavenJar(

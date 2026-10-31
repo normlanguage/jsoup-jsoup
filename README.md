@@ -7,3 +7,5 @@ The adapter declaration and runnable example are in `jsoup/jsoup`. It pins jsoup
 `JsoupBindingIntegrationTest` covers standalone NAR consumption, the real JAR, DOM behavior, Safelist, and local HTTP acceptance.
 
 [Runnable samples](samples/README.md) demonstrate the library as an external Norm dependency.
+
+[License](LICENSE)
